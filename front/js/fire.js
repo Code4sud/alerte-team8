@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      text: 'Tu es sorti par la fenêtre et te retrouves dehors. Que fais-tu ensuite ?',
+      text: 'Tu es sorti par la fenêtre et te retrouves dehors. Que fais-tu ensuite?',
       options: [
         { text: 'Appeler les secours (18)', nextQuestion: 5 },
         {
