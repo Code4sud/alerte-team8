@@ -2,10 +2,75 @@
    Your custom CSS styles
    ========================================================================== */
 
-body {
+   body {
     background-color: white;
     color: black;
 }
+
+
+/* Container and Card Styling */
+.container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option-image {
+    width: 250px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Space between the image and text */
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* For hover effect */
+}
+
+.card-blue {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.card-green {
+    background-color: #7ed321;
+    color: white;
+}
+
+.card-red {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.card-yellow {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Hover effect to move the card up */
+}
+
 
 
 /* ==========================================================================
